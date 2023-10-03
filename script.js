@@ -45,7 +45,7 @@ function Clear(INDEX) {
         }
       } else {
         if (POS - INDEX < 0) {
-          for (var i = 0, _pj_a = abs(POS - INDEX); i < _pj_a; i += 1) {
+          for (var i = 0, _pj_a = Math.abs(POS - INDEX); i < _pj_a; i += 1) {
             OUTPUT_C += "--";
             INDEX -= 1;
           }
@@ -63,7 +63,7 @@ function Clear(INDEX) {
           }
         } else {
           if (POS - INDEX < 0) {
-            for (var i = 0, _pj_a = abs(POS - INDEX); i < _pj_a; i += 1) {
+            for (var i = 0, _pj_a = Math.abs(POS - INDEX); i < _pj_a; i += 1) {
               OUTPUT_C += "--";
               INDEX -= 1;
             }
@@ -77,7 +77,7 @@ function Clear(INDEX) {
           }
         } else {
           if (POS - INDEX < 0) {
-            for (var i = 0, _pj_a = abs(POS - INDEX); i < _pj_a; i += 1) {
+            for (var i = 0, _pj_a = Math.abs(POS - INDEX); i < _pj_a; i += 1) {
               OUTPUT_C += "--";
               INDEX -= 1;
             }
@@ -97,7 +97,7 @@ function Clear(INDEX) {
         }
       } else {
         if (POS - INDEX < 0) {
-          for (var i = 0, _pj_a = abs(POS - INDEX); i < _pj_a; i += 1) {
+          for (var i = 0, _pj_a = Math.abs(POS - INDEX); i < _pj_a; i += 1) {
             OUTPUT_C += "--";
             INDEX -= 1;
           }
@@ -118,6 +118,7 @@ function Clear(INDEX) {
 
 function run() {
   USER_INPUT = String(document.getElementById("codeInput").innerText);
+  console.log(USER_INPUT);
 
   USER_TOKENS = USER_INPUT.split(/(\d|\D)/);
 
@@ -270,7 +271,7 @@ function run() {
                                                                           }
                                                                         } else {
                                                                           if (POS - INDEX < 0) {
-                                                                            for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                            for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                               OUTPUT += "--";
                                                                               INDEX -= 1;
                                                                             }
@@ -288,7 +289,7 @@ function run() {
                                                                             }
                                                                           } else {
                                                                             if (POS - INDEX < 0) {
-                                                                              for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                              for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                                 OUTPUT += "--";
                                                                                 INDEX -= 1;
                                                                               }
@@ -302,7 +303,7 @@ function run() {
                                                                             }
                                                                           } else {
                                                                             if (POS - INDEX < 0) {
-                                                                              for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                              for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                                 OUTPUT += "--";
                                                                                 INDEX -= 1;
                                                                               }
@@ -326,7 +327,7 @@ function run() {
                                                                             }
                                                                           } else {
                                                                             if (POS - INDEX < 0) {
-                                                                              for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                              for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                                 OUTPUT += "--";
                                                                                 INDEX -= 1;
                                                                               }
@@ -344,7 +345,7 @@ function run() {
                                                                               }
                                                                             } else {
                                                                               if (POS - INDEX < 0) {
-                                                                                for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                                for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                                   OUTPUT += "--";
                                                                                   INDEX -= 1;
                                                                                 }
@@ -358,7 +359,7 @@ function run() {
                                                                               }
                                                                             } else {
                                                                               if (POS - INDEX < 0) {
-                                                                                for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                                for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                                   OUTPUT += "--";
                                                                                   INDEX -= 1;
                                                                                 }
@@ -378,7 +379,7 @@ function run() {
                                                                             }
                                                                           } else {
                                                                             if (POS - INDEX < 0) {
-                                                                              for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                              for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                                 OUTPUT += "--";
                                                                                 INDEX -= 1;
                                                                               }
@@ -406,7 +407,7 @@ function run() {
                                                                                   }
                                                                                 } else {
                                                                                   if (POS - INDEX < 0) {
-                                                                                    for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                                    for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                                       OUTPUT += "--";
                                                                                       INDEX -= 1;
                                                                                     }
@@ -424,7 +425,7 @@ function run() {
                                                                                     }
                                                                                   } else {
                                                                                     if (POS - INDEX < 0) {
-                                                                                      for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                                      for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                                         OUTPUT += "--";
                                                                                         INDEX -= 1;
                                                                                       }
@@ -438,7 +439,7 @@ function run() {
                                                                                     }
                                                                                   } else {
                                                                                     if (POS - INDEX < 0) {
-                                                                                      for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                                      for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                                         OUTPUT += "--";
                                                                                         INDEX -= 1;
                                                                                       }
@@ -458,7 +459,7 @@ function run() {
                                                                                   }
                                                                                 } else {
                                                                                   if (POS - INDEX < 0) {
-                                                                                    for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                                    for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                                       OUTPUT += "--";
                                                                                       INDEX -= 1;
                                                                                     }
@@ -466,7 +467,7 @@ function run() {
                                                                                 }
                                                                               } else {
                                                                                 if (POS - INDEX < 0) {
-                                                                                  for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                                  for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                                     OUTPUT += "--";
                                                                                     INDEX -= 1;
                                                                                   }
@@ -526,7 +527,7 @@ function run() {
                                                                             }
                                                                           } else {
                                                                             if (POS - INDEX < 0) {
-                                                                              for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                              for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                                 OUTPUT += "--";
                                                                                 INDEX -= 1;
                                                                               }
@@ -544,7 +545,7 @@ function run() {
                                                                               }
                                                                             } else {
                                                                               if (POS - INDEX < 0) {
-                                                                                for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                                for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                                   OUTPUT += "--";
                                                                                   INDEX -= 1;
                                                                                 }
@@ -558,7 +559,7 @@ function run() {
                                                                               }
                                                                             } else {
                                                                               if (POS - INDEX < 0) {
-                                                                                for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                                for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                                   OUTPUT += "--";
                                                                                   INDEX -= 1;
                                                                                 }
@@ -582,7 +583,7 @@ function run() {
                                                                               }
                                                                             } else {
                                                                               if (POS - INDEX < 0) {
-                                                                                for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                                for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                                   OUTPUT += "--";
                                                                                   INDEX -= 1;
                                                                                 }
@@ -600,7 +601,7 @@ function run() {
                                                                                 }
                                                                               } else {
                                                                                 if (POS - INDEX < 0) {
-                                                                                  for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                                  for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                                     OUTPUT += "--";
                                                                                     INDEX -= 1;
                                                                                   }
@@ -614,7 +615,7 @@ function run() {
                                                                                 }
                                                                               } else {
                                                                                 if (POS - INDEX < 0) {
-                                                                                  for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                                  for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                                     OUTPUT += "--";
                                                                                     INDEX -= 1;
                                                                                   }
@@ -634,7 +635,7 @@ function run() {
                                                                               }
                                                                             } else {
                                                                               if (POS - INDEX < 0) {
-                                                                                for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                                for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                                   OUTPUT += "--";
                                                                                   INDEX -= 1;
                                                                                 }
@@ -662,7 +663,7 @@ function run() {
                                                                                     }
                                                                                   } else {
                                                                                     if (POS - INDEX < 0) {
-                                                                                      for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                                      for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                                         OUTPUT += "--";
                                                                                         INDEX -= 1;
                                                                                       }
@@ -680,7 +681,7 @@ function run() {
                                                                                       }
                                                                                     } else {
                                                                                       if (POS - INDEX < 0) {
-                                                                                        for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                                        for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                                           OUTPUT += "--";
                                                                                           INDEX -= 1;
                                                                                         }
@@ -694,7 +695,7 @@ function run() {
                                                                                       }
                                                                                     } else {
                                                                                       if (POS - INDEX < 0) {
-                                                                                        for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                                        for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                                           OUTPUT += "--";
                                                                                           INDEX -= 1;
                                                                                         }
@@ -714,7 +715,7 @@ function run() {
                                                                                     }
                                                                                   } else {
                                                                                     if (POS - INDEX < 0) {
-                                                                                      for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                                      for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                                         OUTPUT += "--";
                                                                                         INDEX -= 1;
                                                                                       }
@@ -722,7 +723,7 @@ function run() {
                                                                                   }
                                                                                 } else {
                                                                                   if (POS - INDEX < 0) {
-                                                                                    for (var i = 0, _pj_d = abs(POS - INDEX); i < _pj_d; i += 1) {
+                                                                                    for (var i = 0, _pj_d = Math.abs(POS - INDEX); i < _pj_d; i += 1) {
                                                                                       OUTPUT += "--";
                                                                                       INDEX -= 1;
                                                                                     }
