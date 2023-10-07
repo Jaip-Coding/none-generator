@@ -777,3 +777,29 @@ function run() {
   
   document.getElementById("codeOutput").innerText = OUTPUT;
 }
+
+function copyOutput() {
+  const copyText = document.getElementById("codeOutput").innerText;
+  const textArea = document.createElement('textarea');
+  textArea.textContent = copyText;
+  document.body.append(textArea);
+  textArea.select();
+  document.execCommand("copy");
+  textArea.remove();
+}
+
+
+const output = document.getElementById("codeOutput");
+const copyButton = document.getElementById("copy");
+
+function checkOutput() {
+  if (output.textContent.trim() === "") {
+    copyButton.style.opacity = "0";
+  } else {
+    copyButton.style.opacity = "1";
+  }
+}
+
+checkOutput()
+
+setInterval(checkOutput, 1000);
