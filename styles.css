@@ -74,8 +74,8 @@ body {
     border: 1px solid #ccc;
     /*padding: 10px;*/
     white-space: pre-wrap;
-    /*margin-top: 10px;
-    min-height: 10%;*/
+    /*margin-top: 10px;*/
+    min-height: 10%;
     font-family: monospace;
   }
   
