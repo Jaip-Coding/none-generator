@@ -133,4 +133,6 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s;
   }
