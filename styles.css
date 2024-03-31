@@ -63,7 +63,7 @@ body {
     margin: 0 auto;
   }
 
-  .output pre {
+  /*.output pre {
     background-color: #f7f7f7;
     border: 1px solid #ccc;
     padding: 10px;
@@ -71,6 +71,12 @@ body {
     margin-top: 10px;
     min-height: 10%;
     font-family: monospace;
+  }*/
+
+  .output pre {
+    position: relative;
+    padding: 10px;
+    margin-top: 10px;
   }
     
   .Links {
@@ -99,7 +105,7 @@ body {
     font-size: 10px;
   }
 
-  .copy {
+  /*.copy {
     position: absolute;
     top: 0;
     right: 0;
@@ -110,4 +116,16 @@ body {
     border: 1px solid #ccc;
     opacity: 0;
     transition: opacity 0.3s;
+  }*/
+
+  .copy {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
   }
