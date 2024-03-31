@@ -63,22 +63,21 @@ body {
     margin: 0 auto;
   }
 
-  .outputDiv {
-    padding: 10px;
-    margin-top: 10px;
-    /*min-height: 10%;*/
-  }
-
-  .outputDiv pre {
+  .output pre {
     background-color: #f7f7f7;
     border: 1px solid #ccc;
-    /*padding: 10px;*/
+    padding: 10px;
     white-space: pre-wrap;
-    /*margin-top: 10px;*/
+    margin-top: 10px;
     min-height: 10%;
     font-family: monospace;
   }
-  
+
+  .copyButton {
+    padding: 10px;
+    margin-top: 10px;
+  }
+    
   .Links {
     padding: 1% 5%;
   }
