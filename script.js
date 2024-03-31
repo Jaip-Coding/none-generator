@@ -775,7 +775,7 @@ function run() {
     }
   }
   
-  document.getElementById("codeOutput").innerText = OUTPUT;
+  document.getElementById("codeOutput").innerText += OUTPUT;
 }
 
 function copyOutput() {
@@ -792,13 +792,13 @@ function copyOutput() {
 const output = document.getElementById("codeOutput");
 const copyButton = document.getElementById("copy");
 
-/*function checkOutput() {
+function checkOutput() {
   if (output.textContent.trim() === "") {
     copyButton.style.opacity = "0";
   } else {
     copyButton.style.opacity = "1";
   }
-}*/
+}
 
 checkOutput()
 
