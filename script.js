@@ -116,6 +116,8 @@ function Clear(INDEX) {
   return [OUTPUT_C, INDEX];
 }
 
+const copyButton = document.getElementById("copy");
+
 function run() {
   USER_INPUT = String(document.getElementById("codeInput").innerText);
   console.log(USER_INPUT);
@@ -776,6 +778,7 @@ function run() {
   }
   
   document.getElementById("codeOutput").innerText += OUTPUT;
+  copyButton.style.opacity = "0";
 }
 
 function copyOutput() {
@@ -787,18 +790,3 @@ function copyOutput() {
   document.execCommand("copy");
   textArea.remove();
 }
-
-const output = document.getElementById("codeOutput");
-const copyButton = document.getElementById("copy");
-
-function checkOutput() {
-  if (output.textContent.trim() === "") {
-    copyButton.style.opacity = "0";
-  } else {
-    copyButton.style.opacity = "1";
-  }
-}
-
-checkOutput()
-
-setInterval(checkOutput, 1000);
