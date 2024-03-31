@@ -779,7 +779,7 @@ function run() {
   
   document.getElementById("codeOutput").innerText = OUTPUT;
   const button = document.createElement('button');
-  button.className = 'copyButton';
+  button.className = 'copy';
   button.textContent = 'Copy';
   button.style.opacity = "1";
   document.getElementById("codeOutput").appendChild(button);
