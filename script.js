@@ -778,7 +778,7 @@ function run() {
   }
   
   document.getElementById("codeOutput").innerText += OUTPUT;
-  copyButton.style.opacity = "0";
+  copyButton.style.opacity = "1";
 }
 
 function copyOutput() {
