@@ -792,13 +792,13 @@ function copyOutput() {
 const output = document.getElementById("codeOutput");
 const copyButton = document.getElementById("copy");
 
-function checkOutput() {
+/*function checkOutput() {
   if (output.textContent.trim() === "") {
     copyButton.style.opacity = "0";
   } else {
     copyButton.style.opacity = "1";
   }
-}
+}*/
 
 checkOutput()
 
