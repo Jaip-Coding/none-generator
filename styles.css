@@ -106,7 +106,8 @@ body {
     background-color: #ebe9e9;
     color: black;
     /*padding:  0.6693440428380187vh 0.6510416666666666vw;*/
-    padding: 1% 5%;
+    padding: 10px;
+    margin-top: 10px;
     cursor: pointer;
     border: 1px solid #ccc;
     opacity: 0;
