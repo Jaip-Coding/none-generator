@@ -62,14 +62,20 @@ body {
     position: relative;
     margin: 0 auto;
   }
-  
-  .output pre {
-    background-color: #f7f7f7;
-    border: 1px solid #ccc;
+
+.outputDiv {
     padding: 10px;
-    white-space: pre-wrap;
     margin-top: 10px;
     min-height: 10%;
+}
+
+  .outputDiv pre {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    /*padding: 10px;*/
+    white-space: pre-wrap;
+    /*margin-top: 10px;
+    min-height: 10%;*/
     font-family: monospace;
   }
   
@@ -106,9 +112,8 @@ body {
     background-color: #ebe9e9;
     color: black;
     /*padding:  0.6693440428380187vh 0.6510416666666666vw;*/
-    padding: 10px;
-    top: 10px;
-    right: 10px;
+    top: 0px;
+    right: 0px;
     cursor: pointer;
     border: 1px solid #ccc;
     opacity: 0;
