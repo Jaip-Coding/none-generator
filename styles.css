@@ -125,8 +125,8 @@ body {
 
   .copy {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 2px;
+    right: 2px;
     padding: 5px 10px;
     background-color: #ebe9e9;
     color: black;
