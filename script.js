@@ -781,8 +781,8 @@ function run() {
   const button = document.createElement('button');
   button.className = 'copyButton';
   button.textContent = 'Copy';
-  document.getElementById("codeOutput").appendChild(button);
   button.style.opacity = "1";
+  document.getElementById("codeOutput").appendChild(button);
 }
 
 function copyOutput() {
