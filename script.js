@@ -777,8 +777,12 @@ function run() {
     }
   }
   
-  document.getElementById("codeOutput").innerText += OUTPUT;
-  copyButton.style.opacity = "1";
+  document.getElementById("codeOutput").innerText = OUTPUT;
+  const button = document.createElement('button');
+  button.className = 'copyButton';
+  button.textContent = 'Copy';
+  preElement.appendChild(button);
+  button.style.opacity = "1";
 }
 
 function copyOutput() {
