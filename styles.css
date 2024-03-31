@@ -43,6 +43,7 @@ body {
   }
   
   .code-editor pre {
+    background-color: #f7f7f7;
     border: 1px solid #ccc;
     padding: 10px;
     white-space: pre-wrap;
@@ -100,11 +101,13 @@ body {
 
   .copy {
     position: absolute;
-    top: 4.016064257028113vh;
-    right: 5.208333333333333vw;
+    /*top: 4.016064257028113vh;
+    right: 5.208333333333333vw;*/
+    top: 2%;
+    right: 2%;
     background-color: #ebe9e9;
     color: black;
-    padding:  0.6693440428380187vh 0.6510416666666666vw;
+    /*padding:  0.6693440428380187vh 0.6510416666666666vw;*/
     cursor: pointer;
     border: 1px solid #ccc;
     opacity: 0;
