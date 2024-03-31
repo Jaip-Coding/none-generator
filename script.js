@@ -786,8 +786,9 @@ function run() {
 }
 
 function copyOutput() {
-  const copyText = document.getElementById("codeOutput").innerText;
+  const getText = document.getElementById("codeOutput").innerText;
   const textArea = document.createElement('textarea');
+  const copyText = getText.slice(0, -4);
   textArea.textContent = copyText;
   document.body.append(textArea);
   textArea.select();
