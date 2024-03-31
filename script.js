@@ -788,7 +788,6 @@ function copyOutput() {
   textArea.remove();
 }
 
-
 const output = document.getElementById("codeOutput");
 const copyButton = document.getElementById("copy");
 
